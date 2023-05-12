@@ -3,4 +3,4 @@ COPY Ola.java
 
 RUN javac Ola.java
 
-CMD ["java", "-classpath", "Ola"]
+CMD ["java", "-classpath", "", "Ola"]
