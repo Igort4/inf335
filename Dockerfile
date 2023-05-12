@@ -1,5 +1,5 @@
-FROM openjdk:11
-COPY Ola.java
+FROM eclipse-temurin:11
+COPY Ola.java /
 
 RUN javac Ola.java
 
