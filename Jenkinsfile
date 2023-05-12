@@ -1,7 +1,7 @@
 pipeline {
   agent any
  
-    
+  stages{
     stage('build') {
       steps {
         sh 'docker build -t ola .'
@@ -13,4 +13,5 @@ pipeline {
         sh 'docker run ola'
       }
     }
+  }
   }
